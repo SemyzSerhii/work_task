@@ -1,8 +1,7 @@
-<%= link_to 'new post', new_post_path %>
-
-
-<% @posts.each do |post| %>
-<div>
-  <%= render post %>
+<div class="bl">
+  <% @posts.each do |post| %>
+    <div class="card-deck size_block">
+      <%= render post %>
+    </div>
+  <% end %>
 </div>
-<% end %>

@@ -1,16 +1,22 @@
+body {
+  background-color: darkgrey;
+}
+
 .size {
   margin: 10rem 30rem 15rem 30rem;
-  color: blue;
+  color: black;
   text-align: center;
 }
 
 .borders {
   border-radius: 1rem;
-  background-color: aliceblue;
-  border-color: blue;
-
+  background-color: lightgrey;
+  border-color: black;
 }
 
-body {
-  background-color: powderblue;
+.buttons {
+  border-color: black;
+  background-color: gray;
+  color: black;
 }
+

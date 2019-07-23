@@ -1,0 +1,16 @@
+.size_block {
+  width: 20rem;
+  height: 20rem;
+  display: inline-block;
+  margin-top: 5rem;
+}
+
+.image {
+  background-color: lightgrey;
+  width: 18rem;
+}
+
+.bl {
+  margin-left: 7.5rem;
+  margin-right: 7.5rem;
+}

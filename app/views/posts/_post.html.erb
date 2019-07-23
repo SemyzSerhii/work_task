@@ -1,9 +1,12 @@
 <% if post.present? %>
-<div>
-  <h3><%= post.title %></h3>
-  <%= post.body %>
+<div class="card image">
+  <img src="https://proglib.io/wp-content/uploads/2018/08/Ruby-Language-1024x576-e1534132010553.png"
+       class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><%= post.title %></h5>
+    <p class="card-text"><%= post.body %></p>
+  </div>
 </div>
-  <h3 class="wer">gffgffg</h3>
 <% else %>
-<h3>No Posts</h3>
+  <h3>No Posts</h3>
 <%end %>
